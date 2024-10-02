@@ -1,0 +1,26 @@
+$colorheader:gold;
+$colortitulos:red;
+$colorfondo: rgb(10, 10, 10);
+$colortextotitulos1: black;
+$colortextotitulos2: white;
+$fontfamily1: "New Amsterdam", sans-serif;
+$fontfamily2: 'roboto', sans-serif; 
+
+/*Mapa de colores*/
+
+$colores: (
+    header:$colorheader,
+    titulos:$colortitulos,
+    fondo:$colorfondo,
+    texto_titulos_1:$colortextotitulos1,
+    texto_titulos_2:$colortextotitulos2,
+);
+
+
+/*Mapa de Fuentes*/
+
+$fuentes: (
+
+    font_1: $fontfamily1,
+    font_2: $fontfamily2,
+);

@@ -1,0 +1,23 @@
+@mixin botton {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid map-get($colores, $colortextotitulos1);
+    box-shadow: 2px 2px 10px map-get($colores, $colortextotitulos1);
+    color: map-get($colores, $colortextotitulos2);
+    background-color: map-get($colores, header);
+    &:hover{
+        background-color: rgb(155, 135, 21);
+    }
+}
+
+@mixin card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 12px;
+
+}
